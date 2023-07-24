@@ -1,0 +1,140 @@
+@media (max-width:1200px){
+    .nav{
+        padding: 20px 45px;
+    }
+
+    .footer__content{
+        padding: 100px 50px;
+    }
+
+    .use__left{
+        padding: 60px 46px 40px 40px;
+        max-width: 450px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:992px){
+    .header__link{
+        display: none;
+    }
+    .burger__menu{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        right: 45px;
+        top: 20px;
+    }
+
+    .use__left_title,
+    .use__left_subtitle_second{
+        font-size: 12px;
+    }
+    
+    .use__left_subtitle{
+        font-size: 20px;
+        padding: 5px 0 5px ;
+    }
+
+    .use__left{
+        padding: 30px 46px 30px 40px;
+    }
+
+    
+
+    .use__left_btn{
+        border-radius: 14px;
+        font-size: 15px;
+    }
+    
+    .footer__center{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer__center_left{
+        text-align: center;
+    }
+
+    .footer__top_left_txt{
+        max-width: 250px;
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .help{
+        padding: 0 15px;
+        gap: 5px;
+    }
+
+    .help_title{
+        font-size: 30px;
+    }
+
+    .help_subtitle{
+        font-size: 18px
+    }
+}
+@media (max-width:576px){
+    .we__do__content{
+        padding: 0 25px;
+    }
+
+    .footer__top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .footer__top_left{
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer__top_left_txt{
+        max-width: 100%;
+    }
+
+    .section__use{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .use__left{
+        order: -1;
+    }
+
+    form input{
+        width: 250px;
+    }
+
+    .block__txt{
+        right: 0;
+    }
+
+    .we__do__cards_txt{
+        gap: 5px;
+    }
+
+    .we__do__cards_txt_title{
+        font-size: 12px;
+    }
+
+    .we__do__cards_txt_subtitle{
+        font-size: 12px;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .footer__bottom_left{
+        order: 1;
+    }
+}
